@@ -13,8 +13,11 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Syifa Gold Official",
-  description: "Luxury Gold Investment & Jewelry",
+  title: "Syifa Gold Official | Luxury Gold Investment",
+  description: "Luxury Gold Investment",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

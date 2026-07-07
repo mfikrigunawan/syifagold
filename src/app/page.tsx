@@ -4,21 +4,28 @@ import Footer from "@/components/layout/footer";
 import Hero from "@/features/home/components/hero";
 import WhyChooseUs from "@/features/home/components/why-choose-us";
 import ProductSection from "@/features/home/components/product-section";
+import HowToBuy from "@/features/home/components/how-to-buy";
+import FAQ from "@/features/home/components/faq";
 import CTASection from "@/features/home/components/cta-section";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+    <Navbar />
 
-      <main>
-        <Hero />
-        <WhyChooseUs />
-        <ProductSection />
-        <CTASection />
-      </main>
+    <Hero />
 
-      <Footer />
+    <WhyChooseUs />
+
+    <ProductSection />
+
+    <HowToBuy />
+
+    <FAQ />
+
+    <CTASection />
+
+    <Footer />
     </>
   );
 }
