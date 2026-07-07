@@ -20,10 +20,9 @@ export default function Footer() {
               </h2>
             </div>
           </div>
-          <p className="max-w-xl text-sm leading-7 text-stone-400 sm:text-base mb-20">
+          <p className="max-w-xl text-sm leading-7 text-stone-400 sm:text-base">
             Kami menghadirkan emas Antam asli, layanan personal, dan transparansi harga yang membuat setiap transaksi terasa aman dan elegan.
           </p>
-          <p className="text-xs leading-7 text-stone-400 sm:text-xs">Copyright &copy;2024 Syifa Gold Official. All rights reserved.</p>
         </div>
 
         <div className="space-y-6 h-40 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
@@ -47,6 +46,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        <p className="text-xs leading-7 text-stone-400 sm:text-xs">Copyright &copy;2024 Syifa Gold Official. All rights reserved.</p>
 
       </div>
     </footer>
