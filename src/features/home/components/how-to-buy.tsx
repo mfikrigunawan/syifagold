@@ -7,18 +7,18 @@ import Button from "@/components/ui/button";
 
 const steps = [
   {
-    title: "Konsultasi kebutuhan",
-    description: "Kami membantu Anda memilih produk yang paling sesuai dengan tujuan investasi atau hadiah.",
+    title: "Konsultasi Kebutuhan",
+    description: "Diskusikan kebutuhan investasi Anda dengan tim kami untuk menemukan solusi yang paling sesuai.",
     icon: MessageCircle,
   },
   {
-    title: "Pilih produk",
-    description: "Pilih emas Antam dan desain yang paling Anda sukai dari koleksi premium kami.",
+    title: "Pilih Produk",
+    description: "Telusuri berbagai pilihan emas Antam original yang tersedia dan pilih sesuai preferensi Anda.",
     icon: ShoppingBag,
   },
   {
-    title: "Lakukan transaksi",
-    description: "Proses yang jelas, aman, dan cepat dari awal hingga barang sampai di tangan Anda.",
+    title: "Lakukan Transaksi",
+    description: "Nikmati proses transaksi yang aman dan nyaman dengan dukungan penuh dari tim kami.",
     icon: Wallet,
   },
 ];
@@ -29,14 +29,16 @@ export default function HowToBuy() {
       <Container className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div className="max-w-xl space-y-6">
           <Heading eyebrow="Cara membeli" className="text-white">
-            <h2 className="font-heading text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">Proses yang sederhana, aman, dan terasa premium.</h2>
+            <h2 className="font-heading text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
+              Proses Pembelian Emas Antam yang Mudah dan Aman.
+            </h2>
           </Heading>
           <p className="text-lg leading-8 text-stone-400">
-            Dari konsultasi hingga pengiriman, setiap langkah dirancang agar pengalaman Anda tetap tenang dan jelas.
+            Dengan langkah-langkah yang jelas dan dukungan penuh dari tim kami, Anda dapat membeli emas Antam dengan percaya diri dan nyaman.
           </p>
           <Button asChild variant="secondary" className="border-stone-700 bg-stone-900 text-stone-100 hover:bg-stone-800">
             <Link href="https://wa.me/6281389616737?text=Hello%20I%20would%20like%20more%20information%20about%20Syifa%20Gold">
-              Mulai percakapan
+              Mulai Percakapan
               <ArrowRight className="h-4 w-4" />
             </Link>
           </Button>

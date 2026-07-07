@@ -8,9 +8,10 @@ import Container from "@/components/ui/container";
 import Button from "@/components/ui/button";
 
 const highlights = [
-  "Emas Antam 24K asli",
-  "Harga transparan dan kompetitif",
-  "Pembelian aman & cepat",
+  "✨ CertiCard Antam",
+  "✨ Bisa dicek di aplikasi CertiEye",
+  "✨ Produk dijamin ASLI 100%",
+  "✨ COD & Gratis Antar",
 ];
 
 export default function Hero() {
@@ -55,13 +56,13 @@ export default function Hero() {
               data-animate
               className="font-heading text-4xl font-semibold leading-tight text-stone-950 sm:text-5xl lg:text-6xl"
             >
-              Lindungi nilai kekayaan Anda dengan kemewahan yang tenang.
+              Lindungi Nilai Kekayaan Anda Dengan Tenang.
             </h1>
             <p
               data-animate
               className="max-w-xl text-lg leading-8 text-stone-600 sm:text-xl"
             >
-              Syifa Gold menghadirkan emas Antam original dengan proses transaksi yang aman, elegan, dan mudah dipahami.
+              Syifa Gold menghadirkan emas Antam original dengan proses transaksi yang aman dan pengiriman langsung ke tempat anda.
             </p>
           </div>
 
@@ -91,7 +92,7 @@ export default function Hero() {
           <div className="relative overflow-hidden rounded-4xl border border-stone-200 bg-white/85 p-6 shadow-[0_30px_80px_rgba(0,0,0,0.08)] backdrop-blur sm:p-8">
             <div className="rounded-3xl border border-[#C8A74E]/20 bg-[linear-gradient(135deg,#fffdf8_0%,#efe4be_100%)] p-8 sm:p-10">
               <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#C8A74E]">
-                Pilihan premium
+                Pilihan Populer
               </p>
               <div className="mt-6 space-y-5">
                 <div className="rounded-2xl border border-white/70 bg-white/80 p-5 shadow-sm">
@@ -112,7 +113,7 @@ export default function Hero() {
                   </div>
                   <div className="rounded-2xl bg-white p-5 text-stone-700">
                     <p className="text-sm text-stone-500">Pengiriman</p>
-                    <p className="mt-2 font-heading text-2xl text-stone-950">Terkirim aman</p>
+                    <p className="mt-2 font-heading text-2xl text-stone-950">Gratis Antar</p>
                   </div>
                 </div>
               </div>

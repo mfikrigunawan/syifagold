@@ -26,11 +26,11 @@ const benefits = [
 
 export default function WhyChooseUs() {
   return (
-    <Section id="tentang" className="bg-stone-50/70">
+    <Section id="tentang-kami" className="bg-stone-50/70">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <Heading eyebrow="Mengapa memilih Syifa Gold" className="mx-auto">
-            Kepercayaan dibangun melalui kualitas, ketelitian, dan nilai yang abadi.
+            Kepercayaan Dibangun Melalui Kualitas, Ketelitian, dan Nilai.
           </Heading>
           <p className="mt-4 text-lg leading-8 text-stone-600">
             Kami menggabungkan aksesibilitas modern dengan standar layanan premium untuk memberi Anda rasa aman saat membeli emas.

@@ -8,7 +8,7 @@ import { Menu, X } from "lucide-react";
 const links = [
   { label: "Beranda", href: "#beranda" },
   { label: "Produk", href: "#produk" },
-  { label: "Tentang", href: "#tentang" },
+  { label: "Tentang Kami", href: "#tentang-kami" },
   { label: "FAQ", href: "#faq" },
   { label: "Kontak", href: "#kontak" },
 ];

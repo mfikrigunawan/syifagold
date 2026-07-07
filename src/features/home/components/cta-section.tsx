@@ -14,15 +14,15 @@ export default function CTASection() {
                 Siap memulai?
               </p>
               <h2 className="font-heading text-3xl font-semibold text-stone-950 sm:text-4xl">
-                Bangun portofolio emas Anda dengan sentuhan yang elegan dan aman.
+                Kami Siap Menemani Anda dalam Investasi Emas Antam yang Aman dan Terpercaya.
               </h2>
               <p className="text-lg leading-8 text-stone-600">
-                Hubungi tim Syifa Gold hari ini untuk konsultasi yang personal<br />dan harga yang jelas.
+                Hubungi tim kami untuk mendapatkan panduan lengkap dan memulai perjalanan investasi emas Antam Anda dengan percaya diri.
               </p>
             </div>
             <Button asChild>
               <Link href="https://wa.me/6281389616737?text=Hello%20I%20would%20like%20more%20information%20about%20Syifa%20Gold">
-                Hubungi kami
+                Hubungi Kami
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
